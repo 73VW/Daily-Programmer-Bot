@@ -3,6 +3,6 @@
 set -xe
 
 isort Bot
-rstcheck -r .
+rstcheck -r Bot
 pydocstyle Bot
 flake8 Bot
